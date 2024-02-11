@@ -4,6 +4,8 @@ A TensorFlow and CameraX-based app that can scan popular landmarks in real-time 
 
 The app uses the model trained on African landmarks, but other models could be used in the same project to identify other landmarks worldwide.
 
+![Screenshot 2024-02-11 at 4 55 21 PM](https://github.com/sateeshjhambani/LandmarkRecognition/assets/60574717/66a2f20d-beb4-46dd-a12c-58431b506193)
+
 ## Usage
 
 The abstraction that is responsible for using the TensorFlow classifier to identify the provided image and output the list of classifications (this is a representation of the result, containing the name of the landmark and accuracy score.)
@@ -72,4 +74,5 @@ override fun classify(bitmap: Bitmap, rotation: Int): List<Classification> {
 ## References
 
 [Landmark Recognition Model](https://www.kaggle.com/models/google/landmarks)
+
 [CameraX](https://developer.android.com/media/camera/camerax)
